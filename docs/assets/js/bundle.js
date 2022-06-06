@@ -4403,7 +4403,7 @@
       getComponent
     ) {
       return template(
-        '<div expr35="expr35" class="banner"></div>',
+        '<div expr24="expr24" class="banner"></div>',
         [
           {
             'type': bindingTypes.IF,
@@ -4414,8 +4414,8 @@
               return _scope.state.isVisible;
             },
 
-            'redundantAttribute': 'expr35',
-            'selector': '[expr35]',
+            'redundantAttribute': 'expr24',
+            'selector': '[expr24]',
 
             'template': template(
               '<div class="container"><h1 class="logo-font">conduit</h1><p>A place to share your <a class="spotlink" href="https://riot.js.org" target="blank">RIOT</a> knowledge.</p></div>',
@@ -4454,11 +4454,11 @@
       getComponent
     ) {
       return template(
-        '<div expr50="expr50"><ul class="nav nav-pills outline-active"><li expr51="expr51" class="nav-item"></li></ul></div>',
+        '<div expr35="expr35"><ul class="nav nav-pills outline-active"><li expr36="expr36" class="nav-item"></li></ul></div>',
         [
           {
-            'redundantAttribute': 'expr50',
-            'selector': '[expr50]',
+            'redundantAttribute': 'expr35',
+            'selector': '[expr35]',
 
             'expressions': [
               {
@@ -4479,11 +4479,11 @@
             'condition': null,
 
             'template': template(
-              '<a expr52="expr52"> </a>',
+              '<a expr37="expr37"> </a>',
               [
                 {
-                  'redundantAttribute': 'expr52',
-                  'selector': '[expr52]',
+                  'redundantAttribute': 'expr37',
+                  'selector': '[expr37]',
 
                   'expressions': [
                     {
@@ -4521,8 +4521,8 @@
               ]
             ),
 
-            'redundantAttribute': 'expr51',
-            'selector': '[expr51]',
+            'redundantAttribute': 'expr36',
+            'selector': '[expr36]',
             'itemName': 'item',
             'indexName': null,
 
@@ -4572,7 +4572,7 @@
       getComponent
     ) {
       return template(
-        '<div expr53="expr53" class="article-preview"></div>',
+        '<div expr25="expr25" class="article-preview"></div>',
         [
           {
             'type': bindingTypes.EACH,
@@ -4580,11 +4580,11 @@
             'condition': null,
 
             'template': template(
-              '<div class="article-meta"><a expr54="expr54"><img expr55="expr55"/></a><div class="info"><a expr56="expr56" class="author author-link"> </a><span class="date">January 20th</span></div><button expr57="expr57"><i class="ion-heart"></i> </button></div><a expr58="expr58" class="preview-link"><h1 expr59="expr59"> </h1><p expr60="expr60"> </p><span>Read more...</span><ul class="tag-list"><li expr61="expr61" class="tag-default tag-pill tag-outline"></li></ul></a>',
+              '<div class="article-meta"><a expr26="expr26"><img expr27="expr27"/></a><div class="info"><a expr28="expr28" class="author author-link"> </a><span class="date">January 20th</span></div><button expr29="expr29"><i class="ion-heart"></i> </button></div><a expr30="expr30" class="preview-link"><h1 expr31="expr31"> </h1><p expr32="expr32"> </p><span>Read more...</span><ul class="tag-list"><li expr33="expr33" class="tag-default tag-pill tag-outline"></li></ul></a>',
               [
                 {
-                  'redundantAttribute': 'expr54',
-                  'selector': '[expr54]',
+                  'redundantAttribute': 'expr26',
+                  'selector': '[expr26]',
 
                   'expressions': [
                     {
@@ -4600,8 +4600,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr55',
-                  'selector': '[expr55]',
+                  'redundantAttribute': 'expr27',
+                  'selector': '[expr27]',
 
                   'expressions': [
                     {
@@ -4617,8 +4617,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr56',
-                  'selector': '[expr56]',
+                  'redundantAttribute': 'expr28',
+                  'selector': '[expr28]',
 
                   'expressions': [
                     {
@@ -4644,8 +4644,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr57',
-                  'selector': '[expr57]',
+                  'redundantAttribute': 'expr29',
+                  'selector': '[expr29]',
 
                   'expressions': [
                     {
@@ -4685,8 +4685,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr58',
-                  'selector': '[expr58]',
+                  'redundantAttribute': 'expr30',
+                  'selector': '[expr30]',
 
                   'expressions': [
                     {
@@ -4702,8 +4702,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr59',
-                  'selector': '[expr59]',
+                  'redundantAttribute': 'expr31',
+                  'selector': '[expr31]',
 
                   'expressions': [
                     {
@@ -4723,8 +4723,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr60',
-                  'selector': '[expr60]',
+                  'redundantAttribute': 'expr32',
+                  'selector': '[expr32]',
 
                   'expressions': [
                     {
@@ -4764,8 +4764,8 @@
                     ]
                   ),
 
-                  'redundantAttribute': 'expr61',
-                  'selector': '[expr61]',
+                  'redundantAttribute': 'expr33',
+                  'selector': '[expr33]',
                   'itemName': 'tagWord',
                   'indexName': null,
 
@@ -4778,8 +4778,8 @@
               ]
             ),
 
-            'redundantAttribute': 'expr53',
-            'selector': '[expr53]',
+            'redundantAttribute': 'expr25',
+            'selector': '[expr25]',
             'itemName': 'article',
             'indexName': null,
 
@@ -4813,7 +4813,7 @@
       getComponent
     ) {
       return template(
-        '<div class="sidebar"><p>Popular Tags</p><div class="tag-list"><a expr64="expr64" class="tag-pill tag-default"></a></div></div>',
+        '<div class="sidebar"><p>Popular Tags</p><div class="tag-list"><a expr34="expr34" class="tag-pill tag-default"></a></div></div>',
         [
           {
             'type': bindingTypes.EACH,
@@ -4855,8 +4855,8 @@
               ]
             ),
 
-            'redundantAttribute': 'expr64',
-            'selector': '[expr64]',
+            'redundantAttribute': 'expr34',
+            'selector': '[expr34]',
             'itemName': 'tag',
             'indexName': null,
 
@@ -4908,7 +4908,7 @@
       getComponent
     ) {
       return template(
-        '<ul class="pagination"><li expr62="expr62"></li></ul>',
+        '<ul class="pagination"><li expr61="expr61"></li></ul>',
         [
           {
             'type': bindingTypes.EACH,
@@ -4916,7 +4916,7 @@
             'condition': null,
 
             'template': template(
-              '<a expr63="expr63" class="page-link"> </a>',
+              '<a expr62="expr62" class="page-link"> </a>',
               [
                 {
                   'expressions': [
@@ -4933,8 +4933,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr63',
-                  'selector': '[expr63]',
+                  'redundantAttribute': 'expr62',
+                  'selector': '[expr62]',
 
                   'expressions': [
                     {
@@ -4962,8 +4962,8 @@
               ]
             ),
 
-            'redundantAttribute': 'expr62',
-            'selector': '[expr62]',
+            'redundantAttribute': 'expr61',
+            'selector': '[expr61]',
             'itemName': 'page',
             'indexName': null,
 
@@ -10935,7 +10935,7 @@
       getComponent
     ) {
       return template(
-        '<div expr36="expr36" class="article-meta"></div>',
+        '<div expr44="expr44" class="article-meta"></div>',
         [
           {
             'type': bindingTypes.IF,
@@ -10946,15 +10946,15 @@
               return _scope.state.article != null;
             },
 
-            'redundantAttribute': 'expr36',
-            'selector': '[expr36]',
+            'redundantAttribute': 'expr44',
+            'selector': '[expr44]',
 
             'template': template(
-              '<a expr37="expr37"><img expr38="expr38"/></a><div class="info"><a expr39="expr39" class="author"> </a><span expr40="expr40" class="date"> </span></div><template expr41="expr41"></template><template expr45="expr45"></template>',
+              '<a expr45="expr45"><img expr46="expr46"/></a><div class="info"><a expr47="expr47" class="author"> </a><span expr48="expr48" class="date"> </span></div><template expr49="expr49"></template><template expr53="expr53"></template>',
               [
                 {
-                  'redundantAttribute': 'expr37',
-                  'selector': '[expr37]',
+                  'redundantAttribute': 'expr45',
+                  'selector': '[expr45]',
 
                   'expressions': [
                     {
@@ -10970,8 +10970,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr38',
-                  'selector': '[expr38]',
+                  'redundantAttribute': 'expr46',
+                  'selector': '[expr46]',
 
                   'expressions': [
                     {
@@ -10987,8 +10987,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr39',
-                  'selector': '[expr39]',
+                  'redundantAttribute': 'expr47',
+                  'selector': '[expr47]',
 
                   'expressions': [
                     {
@@ -11014,8 +11014,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr40',
-                  'selector': '[expr40]',
+                  'redundantAttribute': 'expr48',
+                  'selector': '[expr48]',
 
                   'expressions': [
                     {
@@ -11039,15 +11039,15 @@
                     return _scope.isOwnArticle() == false;
                   },
 
-                  'redundantAttribute': 'expr41',
-                  'selector': '[expr41]',
+                  'redundantAttribute': 'expr49',
+                  'selector': '[expr49]',
 
                   'template': template(
-                    '<button expr42="expr42"><i class="ion-plus-round"></i> </button>\n        &nbsp;\n        <button expr43="expr43"><i class="ion-heart"></i> <span expr44="expr44" class="counter"> </span></button>',
+                    '<button expr50="expr50"><i class="ion-plus-round"></i> </button>\n        &nbsp;\n        <button expr51="expr51"><i class="ion-heart"></i> <span expr52="expr52" class="counter"> </span></button>',
                     [
                       {
-                        'redundantAttribute': 'expr42',
-                        'selector': '[expr42]',
+                        'redundantAttribute': 'expr50',
+                        'selector': '[expr50]',
 
                         'expressions': [
                           {
@@ -11087,8 +11087,8 @@
                         ]
                       },
                       {
-                        'redundantAttribute': 'expr43',
-                        'selector': '[expr43]',
+                        'redundantAttribute': 'expr51',
+                        'selector': '[expr51]',
 
                         'expressions': [
                           {
@@ -11128,8 +11128,8 @@
                         ]
                       },
                       {
-                        'redundantAttribute': 'expr44',
-                        'selector': '[expr44]',
+                        'redundantAttribute': 'expr52',
+                        'selector': '[expr52]',
 
                         'expressions': [
                           {
@@ -11162,15 +11162,15 @@
                     return _scope.isOwnArticle();
                   },
 
-                  'redundantAttribute': 'expr45',
-                  'selector': '[expr45]',
+                  'redundantAttribute': 'expr53',
+                  'selector': '[expr53]',
 
                   'template': template(
-                    '<button expr46="expr46" class="btn btn-sm btn-outline-secondary"><i class="ion-edit"></i> Edit Article\n        </button>\n        &nbsp;\n        <button expr47="expr47" class="btn btn-sm btn-outline-danger"><i class="ion-trash-a"></i> Delete Article\n        </button>',
+                    '<button expr54="expr54" class="btn btn-sm btn-outline-secondary"><i class="ion-edit"></i> Edit Article\n        </button>\n        &nbsp;\n        <button expr55="expr55" class="btn btn-sm btn-outline-danger"><i class="ion-trash-a"></i> Delete Article\n        </button>',
                     [
                       {
-                        'redundantAttribute': 'expr46',
-                        'selector': '[expr46]',
+                        'redundantAttribute': 'expr54',
+                        'selector': '[expr54]',
 
                         'expressions': [
                           {
@@ -11186,8 +11186,8 @@
                         ]
                       },
                       {
-                        'redundantAttribute': 'expr47',
-                        'selector': '[expr47]',
+                        'redundantAttribute': 'expr55',
+                        'selector': '[expr55]',
 
                         'expressions': [
                           {
@@ -14034,7 +14034,7 @@
       getComponent
     ) {
       return template(
-        '<template expr48="expr48"></template>',
+        '<template expr56="expr56"></template>',
         [
           {
             'type': bindingTypes.IF,
@@ -14045,11 +14045,11 @@
               return _scope.state.article != null;
             },
 
-            'redundantAttribute': 'expr48',
-            'selector': '[expr48]',
+            'redundantAttribute': 'expr56',
+            'selector': '[expr56]',
 
             'template': template(
-              '<div id="articleBodyField"></div><ul class="tag-list"><li expr49="expr49" class="tag-default tag-pill tag-outline"></li></ul>',
+              '<div id="articleBodyField"></div><ul class="tag-list"><li expr57="expr57" class="tag-default tag-pill tag-outline"></li></ul>',
               [
                 {
                   'type': bindingTypes.EACH,
@@ -14076,8 +14076,8 @@
                     ]
                   ),
 
-                  'redundantAttribute': 'expr49',
-                  'selector': '[expr49]',
+                  'redundantAttribute': 'expr57',
+                  'selector': '[expr57]',
                   'itemName': 'tagWord',
                   'indexName': null,
 
@@ -14124,7 +14124,7 @@
       getComponent
     ) {
       return template(
-        '<form class="card comment-form"><div class="card-block"><textarea id="commentArea" class="form-control" placeholder="Write a comment..." rows="3"></textarea></div><div class="card-footer"><template expr24="expr24"></template><button expr26="expr26" type="button" class="btn btn-sm btn-primary">\n        Post Comment\n        </button></div></form>',
+        '<form class="card comment-form"><div class="card-block"><textarea id="commentArea" class="form-control" placeholder="Write a comment..." rows="3"></textarea></div><div class="card-footer"><template expr58="expr58"></template><button expr60="expr60" type="button" class="btn btn-sm btn-primary">\n        Post Comment\n        </button></div></form>',
         [
           {
             'type': bindingTypes.IF,
@@ -14135,15 +14135,15 @@
               return _scope.state.profile != null;
             },
 
-            'redundantAttribute': 'expr24',
-            'selector': '[expr24]',
+            'redundantAttribute': 'expr58',
+            'selector': '[expr58]',
 
             'template': template(
-              '<img expr25="expr25" class="comment-author-img"/>',
+              '<img expr59="expr59" class="comment-author-img"/>',
               [
                 {
-                  'redundantAttribute': 'expr25',
-                  'selector': '[expr25]',
+                  'redundantAttribute': 'expr59',
+                  'selector': '[expr59]',
 
                   'expressions': [
                     {
@@ -14162,8 +14162,8 @@
             )
           },
           {
-            'redundantAttribute': 'expr26',
-            'selector': '[expr26]',
+            'redundantAttribute': 'expr60',
+            'selector': '[expr60]',
 
             'expressions': [
               {
@@ -14228,7 +14228,7 @@
       getComponent
     ) {
       return template(
-        '<div expr27="expr27" class="card"></div>',
+        '<div expr63="expr63" class="card"></div>',
         [
           {
             'type': bindingTypes.EACH,
@@ -14236,11 +14236,11 @@
             'condition': null,
 
             'template': template(
-              '<div class="card-block"><p class="card-text"><div expr28="expr28" class="comment_body_view"></div></p></div><div class="card-footer"><a expr29="expr29" class="comment-author"><img expr30="expr30" class="comment-author-img"/></a>\n        &nbsp;\n        <a expr31="expr31" class="comment-author"> </a><span expr32="expr32" class="date-posted"> </span><template expr33="expr33"></template></div>',
+              '<div class="card-block"><p class="card-text"><div expr64="expr64" class="comment_body_view"></div></p></div><div class="card-footer"><a expr65="expr65" class="comment-author"><img expr66="expr66" class="comment-author-img"/></a>\n        &nbsp;\n        <a expr67="expr67" class="comment-author"> </a><span expr68="expr68" class="date-posted"> </span><template expr69="expr69"></template></div>',
               [
                 {
-                  'redundantAttribute': 'expr28',
-                  'selector': '[expr28]',
+                  'redundantAttribute': 'expr64',
+                  'selector': '[expr64]',
 
                   'expressions': [
                     {
@@ -14256,8 +14256,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr29',
-                  'selector': '[expr29]',
+                  'redundantAttribute': 'expr65',
+                  'selector': '[expr65]',
 
                   'expressions': [
                     {
@@ -14273,8 +14273,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr30',
-                  'selector': '[expr30]',
+                  'redundantAttribute': 'expr66',
+                  'selector': '[expr66]',
 
                   'expressions': [
                     {
@@ -14290,8 +14290,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr31',
-                  'selector': '[expr31]',
+                  'redundantAttribute': 'expr67',
+                  'selector': '[expr67]',
 
                   'expressions': [
                     {
@@ -14321,8 +14321,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr32',
-                  'selector': '[expr32]',
+                  'redundantAttribute': 'expr68',
+                  'selector': '[expr68]',
 
                   'expressions': [
                     {
@@ -14346,15 +14346,15 @@
                     return _scope.isDeletable( _scope.comment );
                   },
 
-                  'redundantAttribute': 'expr33',
-                  'selector': '[expr33]',
+                  'redundantAttribute': 'expr69',
+                  'selector': '[expr69]',
 
                   'template': template(
-                    '<span class="mod-options"><i expr34="expr34" class="ion-trash-a"></i></span>',
+                    '<span class="mod-options"><i expr70="expr70" class="ion-trash-a"></i></span>',
                     [
                       {
-                        'redundantAttribute': 'expr34',
-                        'selector': '[expr34]',
+                        'redundantAttribute': 'expr70',
+                        'selector': '[expr70]',
 
                         'expressions': [
                           {
@@ -14375,8 +14375,8 @@
               ]
             ),
 
-            'redundantAttribute': 'expr27',
-            'selector': '[expr27]',
+            'redundantAttribute': 'expr63',
+            'selector': '[expr63]',
             'itemName': 'comment',
             'indexName': null,
 
@@ -14450,11 +14450,11 @@
       getComponent
     ) {
       return template(
-        '<div id="headerView"></div><div class="article-page"><div class="banner"><div class="container"><h1 expr5="expr5"> </h1><div id="aboveArticleWidgetView"></div></div></div><div class="container page"><div class="row article-content"><div class="col-md-12"><div id="articleView"></div></div></div></div><hr/><div class="article-actions"><div id="belowArticleWidgetView"></div></div><div class="row"><div class="col-xs-12 col-md-8 offset-md-2"><div id="commentFormView"></div><div id="commentTableView"></div></div></div></div><div id="footerView"></div>',
+        '<div id="headerView"></div><div class="article-page"><div class="banner"><div class="container"><h1 expr11="expr11"> </h1><div id="aboveArticleWidgetView"></div></div></div><div class="container page"><div class="row article-content"><div class="col-md-12"><div id="articleView"></div></div></div></div><hr/><div class="article-actions"><div id="belowArticleWidgetView"></div></div><div class="row"><div class="col-xs-12 col-md-8 offset-md-2"><div id="commentFormView"></div><div id="commentTableView"></div></div></div></div><div id="footerView"></div>',
         [
           {
-            'redundantAttribute': 'expr5',
-            'selector': '[expr5]',
+            'redundantAttribute': 'expr11',
+            'selector': '[expr11]',
 
             'expressions': [
               {
@@ -14570,7 +14570,7 @@
       getComponent
     ) {
       return template(
-        '<div id="headerView"></div><div class="auth-page"><div class="container page"><div class="row"><div class="col-md-6 offset-md-3 col-xs-12"><h1 class="text-xs-center">Sign In</h1><p class="text-xs-center"><a href="#/register">Need an account?</a></p><ul expr0="expr0" class="error-messages"></ul><fieldset class="form-group"><input expr2="expr2" id="emailField" class="form-control form-control-lg" type="text" placeholder="Email"/></fieldset><fieldset class="form-group"><input expr3="expr3" id="passwordField" class="form-control form-control-lg" type="password" placeholder="Password"/></fieldset><button expr4="expr4" id="submitButton" class="btn btn-lg btn-primary pull-xs-right" disabled>\n                Sign in\n            </button></div></div></div></div><div id="footerView"></div>',
+        '<div id="headerView"></div><div class="auth-page"><div class="container page"><div class="row"><div class="col-md-6 offset-md-3 col-xs-12"><h1 class="text-xs-center">Sign In</h1><p class="text-xs-center"><a href="#/register">Need an account?</a></p><ul expr6="expr6" class="error-messages"></ul><fieldset class="form-group"><input expr8="expr8" id="emailField" class="form-control form-control-lg" type="text" placeholder="Email"/></fieldset><fieldset class="form-group"><input expr9="expr9" id="passwordField" class="form-control form-control-lg" type="password" placeholder="Password"/></fieldset><button expr10="expr10" id="submitButton" class="btn btn-lg btn-primary pull-xs-right" disabled>\n                Sign in\n            </button></div></div></div></div><div id="footerView"></div>',
         [
           {
             'type': bindingTypes.IF,
@@ -14581,11 +14581,11 @@
               return _scope.state.errorMessages != null;
             },
 
-            'redundantAttribute': 'expr0',
-            'selector': '[expr0]',
+            'redundantAttribute': 'expr6',
+            'selector': '[expr6]',
 
             'template': template(
-              '<li expr1="expr1"></li>',
+              '<li expr7="expr7"></li>',
               [
                 {
                   'type': bindingTypes.EACH,
@@ -14612,8 +14612,8 @@
                     ]
                   ),
 
-                  'redundantAttribute': 'expr1',
-                  'selector': '[expr1]',
+                  'redundantAttribute': 'expr7',
+                  'selector': '[expr7]',
                   'itemName': 'message',
                   'indexName': null,
 
@@ -14627,8 +14627,8 @@
             )
           },
           {
-            'redundantAttribute': 'expr2',
-            'selector': '[expr2]',
+            'redundantAttribute': 'expr8',
+            'selector': '[expr8]',
 
             'expressions': [
               {
@@ -14644,8 +14644,8 @@
             ]
           },
           {
-            'redundantAttribute': 'expr3',
-            'selector': '[expr3]',
+            'redundantAttribute': 'expr9',
+            'selector': '[expr9]',
 
             'expressions': [
               {
@@ -14661,8 +14661,8 @@
             ]
           },
           {
-            'redundantAttribute': 'expr4',
-            'selector': '[expr4]',
+            'redundantAttribute': 'expr10',
+            'selector': '[expr10]',
 
             'expressions': [
               {
@@ -14782,7 +14782,7 @@
       getComponent
     ) {
       return template(
-        '<div id="headerView"></div><div class="auth-page"><div class="container page"><div class="row"><div class="col-md-6 offset-md-3 col-xs-12"><h1 class="text-xs-center">Sign Up</h1><p class="text-xs-center"><a href="#/login">Have an account?</a></p><ul expr6="expr6" class="error-messages"></ul><fieldset class="form-group"><input expr8="expr8" id="usernameField" class="form-control form-control-lg" type="text" placeholder="Username"/></fieldset><fieldset class="form-group"><input expr9="expr9" id="emailField" class="form-control form-control-lg" type="text" placeholder="Email"/></fieldset><fieldset class="form-group"><input expr10="expr10" id="passwordField" class="form-control form-control-lg" type="password" placeholder="Password"/></fieldset><button expr11="expr11" id="submitButton" class="btn btn-lg btn-primary pull-xs-right" disabled>\n                Sign up\n            </button></div></div></div></div><div id="footerView"></div>',
+        '<div id="headerView"></div><div class="auth-page"><div class="container page"><div class="row"><div class="col-md-6 offset-md-3 col-xs-12"><h1 class="text-xs-center">Sign Up</h1><p class="text-xs-center"><a href="#/login">Have an account?</a></p><ul expr0="expr0" class="error-messages"></ul><fieldset class="form-group"><input expr2="expr2" id="usernameField" class="form-control form-control-lg" type="text" placeholder="Username"/></fieldset><fieldset class="form-group"><input expr3="expr3" id="emailField" class="form-control form-control-lg" type="text" placeholder="Email"/></fieldset><fieldset class="form-group"><input expr4="expr4" id="passwordField" class="form-control form-control-lg" type="password" placeholder="Password"/></fieldset><button expr5="expr5" id="submitButton" class="btn btn-lg btn-primary pull-xs-right" disabled>\n                Sign up\n            </button></div></div></div></div><div id="footerView"></div>',
         [
           {
             'type': bindingTypes.IF,
@@ -14793,11 +14793,11 @@
               return _scope.state.errorMessages != null;
             },
 
-            'redundantAttribute': 'expr6',
-            'selector': '[expr6]',
+            'redundantAttribute': 'expr0',
+            'selector': '[expr0]',
 
             'template': template(
-              '<li expr7="expr7"></li>',
+              '<li expr1="expr1"></li>',
               [
                 {
                   'type': bindingTypes.EACH,
@@ -14824,8 +14824,8 @@
                     ]
                   ),
 
-                  'redundantAttribute': 'expr7',
-                  'selector': '[expr7]',
+                  'redundantAttribute': 'expr1',
+                  'selector': '[expr1]',
                   'itemName': 'message',
                   'indexName': null,
 
@@ -14839,8 +14839,8 @@
             )
           },
           {
-            'redundantAttribute': 'expr8',
-            'selector': '[expr8]',
+            'redundantAttribute': 'expr2',
+            'selector': '[expr2]',
 
             'expressions': [
               {
@@ -14856,8 +14856,8 @@
             ]
           },
           {
-            'redundantAttribute': 'expr9',
-            'selector': '[expr9]',
+            'redundantAttribute': 'expr3',
+            'selector': '[expr3]',
 
             'expressions': [
               {
@@ -14873,8 +14873,8 @@
             ]
           },
           {
-            'redundantAttribute': 'expr10',
-            'selector': '[expr10]',
+            'redundantAttribute': 'expr4',
+            'selector': '[expr4]',
 
             'expressions': [
               {
@@ -14890,8 +14890,8 @@
             ]
           },
           {
-            'redundantAttribute': 'expr11',
-            'selector': '[expr11]',
+            'redundantAttribute': 'expr5',
+            'selector': '[expr5]',
 
             'expressions': [
               {
@@ -15067,7 +15067,7 @@
       getComponent
     ) {
       return template(
-        '<div id="headerView"></div><div class="editor-page"><div class="container page"><div class="row"><div class="col-md-10 offset-md-1 col-xs-12"><ul expr13="expr13" class="error-messages"></ul><form><fieldset><fieldset class="form-group"><input id="titleField" type="text" class="form-control form-control-lg" placeholder="Article Title"/></fieldset><fieldset class="form-group"><input id="descriptionField" type="text" class="form-control" placeholder="What\'s this article about?"/></fieldset><fieldset class="form-group"><textarea id="bodyField" class="form-control" rows="8" placeholder="Write your article (in markdown)"></textarea></fieldset><fieldset class="form-group"><input id="tagListField" type="text" class="form-control" placeholder="Enter tags"/><div class="tag-list"></div></fieldset><button expr15="expr15" class="btn btn-lg pull-xs-right btn-primary" type="button"> </button></fieldset></form></div></div></div></div><div id="footerView"></div>',
+        '<div id="headerView"></div><div class="editor-page"><div class="container page"><div class="row"><div class="col-md-10 offset-md-1 col-xs-12"><ul expr12="expr12" class="error-messages"></ul><form><fieldset><fieldset class="form-group"><input id="titleField" type="text" class="form-control form-control-lg" placeholder="Article Title"/></fieldset><fieldset class="form-group"><input id="descriptionField" type="text" class="form-control" placeholder="What\'s this article about?"/></fieldset><fieldset class="form-group"><textarea id="bodyField" class="form-control" rows="8" placeholder="Write your article (in markdown)"></textarea></fieldset><fieldset class="form-group"><input id="tagListField" type="text" class="form-control" placeholder="Enter tags"/><div class="tag-list"></div></fieldset><button expr14="expr14" class="btn btn-lg pull-xs-right btn-primary" type="button"> </button></fieldset></form></div></div></div></div><div id="footerView"></div>',
         [
           {
             'type': bindingTypes.IF,
@@ -15078,11 +15078,11 @@
               return _scope.state.errorMessages != null;
             },
 
-            'redundantAttribute': 'expr13',
-            'selector': '[expr13]',
+            'redundantAttribute': 'expr12',
+            'selector': '[expr12]',
 
             'template': template(
-              '<li expr14="expr14"></li>',
+              '<li expr13="expr13"></li>',
               [
                 {
                   'type': bindingTypes.EACH,
@@ -15109,8 +15109,8 @@
                     ]
                   ),
 
-                  'redundantAttribute': 'expr14',
-                  'selector': '[expr14]',
+                  'redundantAttribute': 'expr13',
+                  'selector': '[expr13]',
                   'itemName': 'message',
                   'indexName': null,
 
@@ -15124,8 +15124,8 @@
             )
           },
           {
-            'redundantAttribute': 'expr15',
-            'selector': '[expr15]',
+            'redundantAttribute': 'expr14',
+            'selector': '[expr14]',
 
             'expressions': [
               {
@@ -15403,7 +15403,7 @@
       getComponent
     ) {
       return template(
-        '<template expr65="expr65"></template>',
+        '<template expr38="expr38"></template>',
         [
           {
             'type': bindingTypes.IF,
@@ -15414,15 +15414,15 @@
               return _scope.state.profile != null;
             },
 
-            'redundantAttribute': 'expr65',
-            'selector': '[expr65]',
+            'redundantAttribute': 'expr38',
+            'selector': '[expr38]',
 
             'template': template(
-              '<img expr66="expr66" class="user-img"/><h4 expr67="expr67"> </h4><p expr68="expr68"> </p><button expr69="expr69"><i expr70="expr70"></i> </button>',
+              '<img expr39="expr39" class="user-img"/><h4 expr40="expr40"> </h4><p expr41="expr41"> </p><button expr42="expr42"><i expr43="expr43"></i> </button>',
               [
                 {
-                  'redundantAttribute': 'expr66',
-                  'selector': '[expr66]',
+                  'redundantAttribute': 'expr39',
+                  'selector': '[expr39]',
 
                   'expressions': [
                     {
@@ -15438,8 +15438,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr67',
-                  'selector': '[expr67]',
+                  'redundantAttribute': 'expr40',
+                  'selector': '[expr40]',
 
                   'expressions': [
                     {
@@ -15455,8 +15455,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr68',
-                  'selector': '[expr68]',
+                  'redundantAttribute': 'expr41',
+                  'selector': '[expr41]',
 
                   'expressions': [
                     {
@@ -15472,8 +15472,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr69',
-                  'selector': '[expr69]',
+                  'redundantAttribute': 'expr42',
+                  'selector': '[expr42]',
 
                   'expressions': [
                     {
@@ -15513,8 +15513,8 @@
                   ]
                 },
                 {
-                  'redundantAttribute': 'expr70',
-                  'selector': '[expr70]',
+                  'redundantAttribute': 'expr43',
+                  'selector': '[expr43]',
 
                   'expressions': [
                     {
@@ -15868,11 +15868,11 @@
       getComponent
     ) {
       return template(
-        '<div class="home-page"><div id="headerView"></div><div class="banner"><div class="container"><h1 expr12="expr12" class="logo-font"> <br/>\n            Sorry, Please back <a class="spotlink" href="/">home</a>.\n            </h1></div></div><div id="footerView"></div></div>',
+        '<div class="home-page"><div id="headerView"></div><div class="banner"><div class="container"><h1 expr15="expr15" class="logo-font"> <br/>\n            Sorry, Please back <a class="spotlink" href="/">home</a>.\n            </h1></div></div><div id="footerView"></div></div>',
         [
           {
-            'redundantAttribute': 'expr12',
-            'selector': '[expr12]',
+            'redundantAttribute': 'expr15',
+            'selector': '[expr15]',
 
             'expressions': [
               {
