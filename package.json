@@ -6,6 +6,7 @@
     "build": "gulp",
     "rollup": "rollup -c",
     "connect": "gulp connect",
+    "cypress:open": "cypress open",
     "test": "mocha -r ts-node/register test/**/*.ts"
   },
   "repository": {
@@ -46,6 +47,7 @@
     "@types/mocha": "^5.2.7",
     "@types/riot-route": "^3.1.1",
     "chai": "^4.3.4",
+    "cypress": "^10.0.2",
     "gulp": "^4.0.0",
     "gulp-connect": "^5.7.0",
     "gulp-hjson": "^2.4.3",
