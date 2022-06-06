@@ -6,7 +6,7 @@
     "build": "gulp",
     "rollup": "rollup -c",
     "connect": "gulp connect",
-    "cypress:open": "cypress open",
+    "cypress:open": "npx cypress open",
     "test": "mocha -r ts-node/register test/**/*.ts"
   },
   "repository": {
