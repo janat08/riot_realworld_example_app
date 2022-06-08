@@ -24,7 +24,7 @@ tasks:
     openMode: tab-after
 
 ports:
-  - port: 8787
+  - port: 8000
     onOpen: open-preview
   - port: 5900
     onOpen: ignore
